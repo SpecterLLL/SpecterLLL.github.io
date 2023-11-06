@@ -1,4 +1,4 @@
-var navbarWidget = document.getElementById("navbar");
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var navbarWidget = document.getElementById("navbar");
 
 function toggleNavbar() {
   var prevScrollPos = window.pageYOffset || document.documentElement.scrollTop;
