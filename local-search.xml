@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>日志31116</title>
+    <link href="/2023/11/16/%E6%97%A5%E5%BF%97-7/"/>
+    <url>/2023/11/16/%E6%97%A5%E5%BF%97-7/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>上周周末的时候，终于把vscode和visual studio的vim扩展给装上了。已经用vim敲了几天的c++。老实说，远离鼠标的感觉真的很不错。不过这倒是我第一次用vim在vscode里面写博客。因为主要是用的中文，所以模式切换的时候还会有点不适应。用vim的感觉，就是motion真的很方便，哈哈。还有很多东西没有体会到使用到。</p><p>c++目前是敲到了循环语句。明天应该可以结束流程结构，进入数组的学习。累计学时28h。今天敲到了经典的水仙花，自己还敲了个4位数的水仙花。</p><p>除此之外，就是基本上网环境的稳定。前几天clash删库，手机上的clash for android 用不了，v2rayng又太丑，也很不流畅，就换了nekobox for Android。目前电脑还是用的v2rayn，现在用习惯了，感觉还是比较稳定的。</p><p>装了简体中文扩展之后的vscode还是友好一些。</p><p>开题一块，把修改后的稿子给导师看来，没有怎么为难我，只有一些小细节需要完善完善，不错，这方面倒没有让我特别费劲。</p><p>再有就是公选课作业了。才发现，电纸书可以分层描摹，省了我好大功夫，让我轻松不少。不然我现在每天晚上都应该在绞尽脑汁补作业呢。记得上次还在闲鱼上花了40块找了一个代画。疼死了。</p><p>还有就是，后脖子的拉伤终于好了。可以恢复基本的身体锻炼了。</p><hr><p>于vscode和vs中嵌入vim的时候遇到了很多麻烦，但总归顺利地装上了。虽然配置这一块还是很粗糙的（捂脸）：</p><p>原生vim的配置文件一部分不支持vs的vsvim，完全不支持vscodevim。不过vscodevim可以通过settings.json文件进行配置，也可以直接与vscode的图形界面进行交互来配置:<code>设置-文本编辑器</code>。</p><p>然后就是困扰了我很久的找路径的问题，也是半懂不懂地解决了：<br>原生vim的配置文件，可以通过在vim中键入<code>:version</code>,找到相应的路径变量<code>$variablename</code>,然后键入<code>:echo variablename</code>,终端窗口即会显示出相应路径。在该路径下的配置文件中可以实现对原生vim的配置。</p><p>vsvim配置文件的路径系统也会指定，但不会自动创建一个vsvimrc文件，需要自己创建出一个系统指定的可行路径和文件夹。先在安装了vsvim的vs中键入<code>:set</code>,找到vsvimrc的读取路径。然后创建路径和vsvimrc配置文件。我一开始是把原生的vimrc改了名字之后直接作为vsvimrc文件，但是后来在vs窗口写代码的时候，底部的窗口会提示vim出现parse error，即语法错误。这是因为vsvim不支持vim的一些配置语句。后来我为了方便，就直接注释了那些无法兼容的语法句子。好在相对行号保留下来了。</p><p>vscode因为不存在一个xxvimrc文件，而是用json来配置的。这个文件在设置里面可以看到，我就直接点进去，参照网络的资源，依据需求完成了配置。主要还是相对行号。</p><hr><p>在社科的学习方面，最近有一个很不错的想法。“mooloo式笔记”，核心理念是节省笔记整理时间，避免无端的精力损耗，同时真正实现笔记与书本的互动，让一本书总是以一本书的样子来与阅读者互动，而不是以期末考试的划重点形式，也不是以专题论文的形式。今天有一点晚了，明天后天简要地介绍一下，并且以我目前正在阅读的资料作个开头。</p><p>哦，对了，有时间再去学一学双拼。</p><p>明天周五，还没到周末，但是，周末快乐。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日志</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>vim</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>休息</title>
     <link href="/2023/11/11/%E6%97%A5%E5%BF%97-6/"/>
     <url>/2023/11/11/%E6%97%A5%E5%BF%97-6/</url>
