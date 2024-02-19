@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>日志40219</title>
+    <link href="/2024/02/19/%E6%97%A5%E5%BF%97-12/"/>
+    <url>/2024/02/19/%E6%97%A5%E5%BF%97-12/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>neovide+lazyvim是真的很丝滑。在配置neovim和实际写源文件或者md的时候，在语法解析、代码高亮、语法检查、自动补全、格式化、移动动画等方面的体验和vscode或者visual studio完全不同，简直不要太爽。也就此了解了parser、lsp、formatter等方面的基础含义。flash.nvim插件也好好用。发个博客庆祝一下。berberber。还有很多功能、插件没有体验。</p><p><img src="/img/config/1.png"><br><img src="/img/config/2.png"><br><img src="/img/config/3.png"><br><img src="/img/config/4.png"><br><img src="/img/config/5.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日志</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>小学</title>
     <link href="/2024/02/04/%E5%B0%8F%E5%AD%A6/"/>
     <url>/2024/02/04/%E5%B0%8F%E5%AD%A6/</url>
